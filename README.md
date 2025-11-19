@@ -34,15 +34,19 @@ Workshop-1/
 
 ## Установка
 1. Клонирование проекта  
-`git clone https://github.com/AIzlanov/work_shop_one.git`    
+```bash
+git clone https://github.com/AIzlanov/work_shop_one.git
+```    
 
-3. Установка зависимостей  
-pip install -r requirements.txt  
+3. Установка зависимостей
+```bash
+pip install -r requirements.txt
+```
 
-4. Запуск FastAPI-сервиса  
+5. Запуск FastAPI-сервиса  
 переходим в папку с моделью, например, у меня это:
 ```bash
-cd C:\GitProjects\Workshop-1
+cd C:\GitProjects\work_shop_one
 ``` 
 затем запускаем приложение:  
 ```bash
