@@ -40,14 +40,20 @@ Workshop-1/
 pip install -r requirements.txt  
 
 4. Запуск FastAPI-сервиса  
-переходим в папку с моделью:  
-`cd Workshop-1`  
-(например, у меня это `cd C:\GitProjects\Workshop-1`)  
+переходим в папку с моделью, например, у меня это:
+```bash
+cd C:\GitProjects\Workshop-1
+``` 
 затем запускаем приложение:  
-`uvicorn app:app --reload`  
+```bash
+uvicorn app:app --reload
+```
 
 Затем:   
-- Открыть `http://127.0.0.1:8000/docs`  
+- Открыть 
+```html
+http://127.0.0.1:8000/docs
+```  
 - Найти метод POST `/predict_upload`
 - Нажать на `Try it out`
 - Нажать на `Choose File`
