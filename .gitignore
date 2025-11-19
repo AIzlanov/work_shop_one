@@ -1,0 +1,29 @@
+# Виртуальное окружение
+venv/
+__pycache__/
+
+# Временные файлы Jupyter
+.ipynb_checkpoints/
+
+# Системные файлы
+.DS_Store
+
+# Игнорировать все CSV-файлы внутри папки
+data/*.csv
+data/*.docx
+data/*.pdf
+predictions/*.csv
+
+# Но разрешить README в этой папке
+!data/README.md
+
+# Конфигурации IDE
+.vscode/
+.idea/
+
+# Временные файлы CatBoost
+catboost_info/
+
+# Временные файлы и кэш
+tmp_uploads/
+model/__pycache__/
