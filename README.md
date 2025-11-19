@@ -34,25 +34,25 @@ Workshop-1/
 
 ## Установка
 1. Клонирование проекта  
-git clone <your_repo_url>    
+`git clone https://github.com/AIzlanov/work_shop_one.git`    
 
 3. Установка зависимостей  
 pip install -r requirements.txt  
 
 4. Запуск FastAPI-сервиса  
 переходим в папку с моделью:  
-cd Workshop-1  
+`cd Workshop-1`  
 (например, у меня это `cd C:\GitProjects\Workshop-1`)  
-затем запускает приложение:  
-uvicorn app:app --reload  
+затем запускаем приложение:  
+`uvicorn app:app --reload`  
 
 Затем:   
-- Открыть ```http://127.0.0.1:8000/docs```  
-- Найти метод POST /predict_upload
-- Нажать на 'try it out'
-- Нажать на 'Choose File'
+- Открыть `http://127.0.0.1:8000/docs`  
+- Найти метод POST `/predict_upload`
+- Нажать на `Try it out`
+- Нажать на `Choose File`
 - Выбрать файл (heart_test.csv или подобный)
-- Нажать 'Execute'  
+- Нажать `Execute`   
 - Получить JSON вида:  
 ```json
 {
