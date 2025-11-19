@@ -39,11 +39,11 @@ git clone <your_repo_url>
 3. Установка зависимостей  
 pip install -r requirements.txt  
 
-4. Запуск FastAPI-сервиса
-переходим в папку с моделью:
-cd Workshop-1
-(например, у меня это `cd C:\GitProjects\Workshop-1`)
-затем запускает приложение:
+4. Запуск FastAPI-сервиса  
+переходим в папку с моделью:  
+cd Workshop-1  
+(например, у меня это `cd C:\GitProjects\Workshop-1`)  
+затем запускает приложение:  
 uvicorn app:app --reload  
 
 Затем:   
