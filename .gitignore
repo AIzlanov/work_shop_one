@@ -27,3 +27,6 @@ catboost_info/
 # Временные файлы и кэш
 tmp_uploads/
 model/__pycache__/
+
+# Ревью проекта
+review.ipynb
